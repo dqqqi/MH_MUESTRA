@@ -1,0 +1,50 @@
+/* snackbar */
+#snackbar {
+    opacity: 0;
+    min-width: 250px; /* Set a default minimum width */
+    color: black;
+    background-color: white;
+    border: solid 1px #008243;
+    text-align: center; /* Centered text */
+    border-radius: 5px; /* Rounded borders */
+    box-shadow: 5px 10px #00000025;
+    padding: 16px; /* Padding */
+    position: fixed; /* Sit on top of the screen */
+    z-index: 10; /* Add a z-index if needed */
+    font-size: 18px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: 30px; /* 30px from the bottom */
+  }
+
+.success {
+  color: #008243 !important;
+}
+
+.warning {
+  color: #f5d000e8 !important;
+}
+
+.fatal-error {
+  color: #ff0000 !important;
+}
+
+  @-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }

@@ -1,0 +1,77 @@
+html{
+  overflow-x: hidden;
+}
+.ext{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: 'Gotham light', sans-serif;
+  transition: all 0.7s ease;
+  transition-timing-function:ease-out;
+  cursor: pointer;
+  text-decoration-color:white;
+}
+
+.ext:hover{
+  color: rgb(34, 128, 42);
+  text-decoration:underline; 
+  text-decoration-color:rgb(34, 128, 42);
+  letter-spacing: 1px;
+}
+
+.hidden {
+  display: inline-flex !important;
+  position: relative;
+  border: 1px solid green;
+  color:black;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  text-shadow: 1px 0px 0px rgb(255, 255, 255);
+  text-align: start;
+  padding: 10px 10px 10px;
+  font-family: 'Gotham light', sans-serif;
+  font-size: 15px;
+}
+.real {
+  display: none;
+}
+.slide{
+  padding-top: 5px;
+}
+.slideContainer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1% 20% 5% 20%;
+  
+}
+.underlinetwo{
+  border-top: 5px solid rgb(34, 128, 42);
+  height: 4px;
+  max-width: 20px;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.extnum{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  color: white;
+  border: 1px solid rgb(34, 128, 42);
+  background-color: rgb(34, 128, 42);
+  width: 20px;
+  margin-right: 1%;
+}
+.extensible{
+  display: flex;
+  flex-direction: row;
+}
+.bxs-help-circle{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: rgb(29, 167, 40);
+  font-size: 500%;
+}
+

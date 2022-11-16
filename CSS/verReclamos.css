@@ -1,0 +1,153 @@
+/* Accorddion header */
+.accordionWrapper {
+    width: 100%;
+    background-color: whitesmoke;
+    border-radius: 8px 8px 0px 8px;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 20px 5px 3px;
+    font-size: small;
+}
+
+.tableHeader {
+    width: 100%;
+    background-color: rgb(28, 104, 35);
+    color: white;
+    position: sticky;
+    top: 0px;
+}
+
+/* Accorddion body */
+.accordionItem {
+    display:block;
+    width:100%;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.accordionHeading {
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+    padding: 0%;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    border: 1px solid rgb(28, 104, 35);
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.open .accordionHeading{
+    margin-top:0.5px;
+    background-color: #d0ebd0;
+    color: rgb(110, 110, 110);
+}
+
+.accordionHeading:hover {
+    background-color: #d0ebd0;
+    color: rgb(110, 110, 110);
+}
+
+.tableBody {
+    width: 100%;
+    color: black;
+}
+
+.date-rec {
+    text-align: end;
+    font-size: x-small;
+}
+
+.after {
+    background-color: rgba(255, 255, 255, 0.712);
+    border-color: 1px solid gray;
+    color: rgba(0, 0, 0, 0.767);
+}
+
+/* General setting ^ */
+td {
+    padding-bottom: 5px;
+}
+
+.border {
+    padding: 20px 3px;
+    border-right: 1px solid #dddddd;
+}
+
+.h-spacing-sm {
+    width: 7%;
+}
+
+.spacing-sm {
+    width: 7%;
+    border-right: 1px solid #dddddd;
+    padding-top: 18px;
+}
+
+.h-spacing-large {
+    width: 19.5%;
+}
+
+.h-spacing-l {
+    width: 20%;
+}
+
+.spacing-large {
+    width: 19.5%;
+    border-right: 1px solid #dddddd;
+    padding-top: 18px;
+}
+
+.spacing-l {
+    width: 20%;
+}
+
+/* Accorddion content */
+.accordionContent {
+    width: 100%;
+    padding: 0px 20px 0.5px;
+    display:block;
+    background-color: white;
+    border: 1px solid #dddddd;
+}
+
+.open .accordionContent{
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+    transform: scaleY(1);
+    transform-origin: top;
+    transition: transform 0.4s ease;
+    box-sizing: border-box;
+}
+
+.close .accordionContent{
+    height:0px;
+    transition:height 1s ease-out;
+    transform: scaleY(0);
+}
+
+.tittle-content {
+    color: rgb(0, 80, 0);
+}
+
+hr {
+    border: 1px solid rgb(28, 104, 35);
+}
+
+.subtittle {
+    color: #666666;
+}
+
+.res {
+    border-bottom: 1px solid #dddddd;
+    padding: 5px 0px;
+    height: max-content;
+}
+
+.msg-noRec{
+    position: absolute;
+	left: 50%;
+	top: 30%;
+	transform: translate(-50%, -30%);
+}

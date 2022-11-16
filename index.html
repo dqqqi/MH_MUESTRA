@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="http://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+        <link href="Resources/imgs/logo.svg" rel="icon">
+        <link href="CSS/login.css" rel="stylesheet">
+        <link rel="stylesheet" href="CSS/snackbar.css">
+        <title>MANN+HUMMEL</title>   
+    </heaad>
+    <body>
+        <div class="form">
+            <img src="Resources/imgs/logo.svg"><br>
+            <form action="PHP/private/loginAuth.php" method="post" id="login-form">
+                <label for="nombre">nombre de usuario</label>
+                <input type="text" name="email" id="email" placeholder="Nombre de usuario" required onchange="validarDatos('email', 'emailError', 'Email')"><br>
+                <span class="userError" id="emailError">Nombre de usuario incorrecto.</span><br>
+                <label for="contraseña">contraseña</label>
+                <div class="input-container">
+                    <input type="password" name="password" id="password" placeholder="Contraseña" required onchange="validarDatos('password', 'passError', 'Pass')">
+                    <i class='bx bx-show' id="show" style="display: block;" onclick="showHidePass()"></i>
+                </div>
+                <span class="userError" id="passError">Contraseña incorrecta.</span>
+                <!-- reCaptcha -->
+                <div class="g-recaptcha">
+                    <img src="Resources/imgs/reCAPTCHA-logo.png"> No soy un robot
+                    <input type="checkbox" name="captcha" id="captcha" onclick="captchaEnviado()">
+                    <span class="checkmark"></span>
+                </div>
+                <span class="error bx bx-info-circle">Es obligatorio indicar que no es un robot</span><br><br>
+                <button type="button" class="btn" id="enviar" onclick="sendForm();" disabled>iniciar sesión</button>
+            </form>
+        </div>
+
+        <script src="JS/validacion.js"></script>
+        <script src="JS/snackbar.js"></script>
+
+        <div class="footer">
+            Ⓒ BY EEST N°5
+        </div>
+    </body>
+</html>
+

@@ -1,0 +1,252 @@
+
+
+.carousel img{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
+html{
+    display: flex;
+}
+.cardtxt{
+    font-size: 14px;
+}
+h4{
+    font-variant: small-caps;
+    color:rgb(34, 128, 42);
+}
+.captiont{
+    position: absolute;
+    color: rgb(28, 104, 35);
+    font-size: 50px;
+    
+  display: flex;
+  align-items:flex-start;
+  justify-content: flex-start;
+  text-align: start;
+  flex-direction: column;
+ padding-left: 30px;
+}
+.caption{
+    position: relative;
+    color: white;
+    font-size: 40px;
+    -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: rgb(0, 0, 0)
+  
+}
+
+.carousel {
+    justify-content: flex-start;
+    overflow: hidden;
+    padding: 0px 0;
+    position: relative;
+    width: 97vw;
+    transition-property:all;
+    transition: all 0.4s ease;
+    transition-timing-function:ease-out;
+    z-index: 100;
+    
+}
+  
+.carousel > .container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    transform: translate3d(0, 0, 0);
+    transition: transform 600ms;
+    transition-property:all;
+    transition: all 0.4s ease;
+    transition-timing-function:ease-out;
+}
+
+  
+.carousel > nav {
+    bottom: 0vw;
+    left: 550px;
+    
+    position: absolute;
+    text-align: center;
+    width: 100vw;
+    z-index: 9999;
+   
+}
+  
+.carousel > nav a {
+    
+    color: rgb(31, 109, 37);
+    font-size: 70px;
+    opacity: .2;
+    text-decoration: none;
+    transition-property:all;
+    transition: all 0.4s ease;
+    transition-timing-function:ease-out;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255)
+ 
+}
+  
+.carousel > nav a:hover {
+    opacity: .5;
+    font-size: 80px;
+    
+}
+  
+.carousel > nav a.current {
+    opacity: 1;
+    font-size: 80px;
+    -webkit-text-stroke-width: 1.3px;
+    
+}
+  
+.carousel .slide {
+    flex-shrink: 0;
+    line-height: 1.4;
+    text-align: center;
+    width: 100vw;
+    
+}
+
+
+.CardPadre{
+    font-family: 'Gotham Bold', sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color:rgb(34, 34, 34);
+    padding-top: 30px;
+}
+
+.cards{
+    display: flex;
+    margin: auto;
+    
+}
+
+.underline{
+    border-top: 2px solid rgb(34, 128, 42);
+    height: 4px;
+    max-width: 50px;
+    padding: 0;
+}
+
+.content{
+    display: absolute;
+    font-family: 'Gotham Light',sans-serif;
+    font-size: 19px;
+}
+
+.card{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    justify-content:flex-start;
+    margin: 0 auto;
+    padding: 9px;
+    font-size: 20px;
+}
+
+.wrapper {
+	max-width: 100%;
+	margin: auto;
+}
+
+.slider {
+	position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide {
+	display: block;
+    
+}
+
+.slides:hover .slide {
+	animation-play-state: paused;
+}
+
+.slide img {
+	height: 500px;
+	width: 1300px;
+	vertical-align: middle;
+}
+.slide .cardimg {
+    border: 1px solid green;
+    border-left: 0px;
+    border-right: 0px;
+	height: 200px;
+	width: 100%;
+	vertical-align: middle;
+}
+
+ /* Puntos indicadores */
+
+.slider-controler {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10%;	
+}
+
+.ctrl {
+	cursor: pointer;
+	position:relative;
+    justify-content: center;
+    left: 0%;
+	height: 50px;
+	width: 100%;
+	margin-top: 0px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 2px;
+	display: flex;
+    flex-direction: row;
+	transition: background-color 0.6s ease;
+    font-family: "Gotham light",sans-serif;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    font-size: 40px;
+    padding: 5px;
+    padding-bottom: 60px;
+   
+}
+.pdfview{
+    margin: auto;
+    display: block;
+    width: 200vh;
+    height: 100vh;
+}
+
+.active, .ctrl:hover {
+    background-color: #39be2dab;
+    color: aliceblue;
+}
+.overlinetxt{
+    display: flex;
+    align-items: flex-start;
+}
+
+/* animacion de desvanecer */
+
+.desv {
+	animation-name: desvanecer;
+	animation-duration: 0.5s;
+}
+
+@keyframes desvanecer {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
+a{
+    text-decoration: none;
+    color: #39be2d;
+}
+
+.bxs-message-dots{
+    display: flex;
+    text-align: center;
+    padding-top: 2%;
+    font-size: 100px;
+    color: #39be2d91;   
+}
+
