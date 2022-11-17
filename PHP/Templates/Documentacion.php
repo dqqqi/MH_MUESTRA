@@ -10,6 +10,11 @@
    
 </head>
 <body>
-    <object class="pdfview" data="../../Resources/files/Documentación Prácticas.pdf" type="application/pdf"></object>
+    <h2> DOCUMENTACIÓN <i class='bx bxs-file-pdf' ></i></h2>
+    <object class="pdfview" data="../../Resources/files/Documentación EXPO.pdf" type="application/pdf"></object>
+    <br>
+    <a href="PR.php"><h2><i class='bx bx-link-alt'></i> DOCUMENTACIÓN PRACTICA</h2></a>
+    
+    
 </body>
 </html>

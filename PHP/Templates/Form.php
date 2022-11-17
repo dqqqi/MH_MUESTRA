@@ -16,19 +16,14 @@
     <div id="modal-fuera">
     <div class ="form desv">
         <form id="formRec" method="post" enctype="multipart/form-data">
-            <p class="title">reclamación de garantía</p>
+            <p class="title">encuesta</p>
             <div class="text-group">
-                <h3>Método</h3>
-                <p>Formulario de reclamación y adjuntos a:<br>			
-                MANN+HUMMEL Argentina S.A.<br>
-                Departamento de Calidad<br>
-                Senador Quindimil 4425<br>
-                B1822APC Valenín Alsina, Lanús<br>
-                Buenos Aires, Argentina<br>
-                E-Mail: Quality-MHAR@mann-hummel.com
-                <p class="parrafo"><b>Por favor, devuelvan sólo filtros de aceite 
-                y combustible completamente vacíos.</b></p>
-                </p>
+                <h3>Propósito</h3>
+                <p>		
+                Complete, este breve formulario<br>
+                con opiniones, criticas y comentarios <br>
+                de esta misma página.<br>
+               
             </div>
             <div class="row">
                 <div class="col-display">
@@ -48,50 +43,50 @@
                     <input type="text" name="solicitante" id="solicitante" class="input" placeholder="Nombre del solicitante" /><br>
                     </div>
                     <div class="form-group"><!--IMPORTANTE-->
-                    <label for="remito">Núm. remito:</label>
-                    <input type="text" name="remito" id="remito" class="input" placeholder="Ingrese número de remito" required/>
+                    <label for="remito">DNI:</label>
+                    <input type="text" name="remito" id="remito" class="input" placeholder="Ingrese su DNI" required/>
                     </div>
                 </div><br>
 
                 <div class="col-display">
                     <div class="form-group">
-                    <label class="L-RC" for="cliente">Reclamante / Cliente:</label>
+                    <label class="L-RC" for="cliente">¿En que escuela estudió?:</label>
                     <input type="text" name="cliente" id="cliente" class="input" placeholder="Nombre del reclamante/cliente" />
                     </div>
                     <div class="form-group">
-                    <label for="numCliente">Cantidad de filtros:</label>
+                    <label for="numCliente">Puntue la página (0 a 100):</label>
                     <input type="number" name="numCliente" id="numCliente" value="1" min="1" class="input" placeholder="Ingrese Número" />
                     </div>
                 </div><br>
 
                 <div class="col-display">  
                     <div class="form-group"><!--IMPORTANTE-->   
-                    <label for="descCliente">Descripción:</label>
-                    <input type="text" name="descCliente" id="descCliente" class="input" placeholder="Describa el problema" required/>
+                    <label for="descCliente">¿Conoce a MANN+HUMMEL?:</label>
+                    <input type="text" name="descCliente" id="descCliente" class="input" placeholder="Puede explicar como nos conoció" required/>
                     </div>
                 </div><br>
                 
                 <div class="col-display">
                     <div class="form-group"><!--IMPORTANTE-->
-                    <label for="motivoRec">Motivo de la reclamación / descripción del defecto:</label>
+                    <label for="motivoRec">Puntos positivos de la página:</label>
                     <textarea name="motivoRec" id="motivoRec" class="input" cols="70" rows="10" placeholder="Por favor, proporcione una explicación detallada" required></textarea>
                     </div>
                     <div class="form-group"> <!--IMPORTANTE-->
-                    <label for="costesRec">Costes derivados (montaje/desmontaje, daños de reparación, etc.):</label>
-                    <textarea name="costesRec" id="costesRec" class="input" cols="70" rows="10" placeholder="Por favor, explíquelo con detalle y adjunte documentos (facturas, copias del presupuesto)" required></textarea>
+                    <label for="costesRec">Puntos negativos de la página:</label>
+                    <textarea name="costesRec" id="costesRec" class="input" cols="70" rows="10" placeholder="Por favor, proporcione una explicación detallada" required></textarea>
                     </div>
                 </div>
 
                 <div>
                     <div class="form-group">
-                    <label for="observacionesRec">Observaciones:</label>
-                    <textarea name="observacionesRec" id="observacionesRec" class="input" cols="70" rows="10" placeholder="Escriba datos importantes del producto a tener en cuenta"></textarea>
+                    <label for="observacionesRec">Observaciones y comentarios:</label>
+                    <textarea name="observacionesRec" id="observacionesRec" class="input" cols="70" rows="10" placeholder="Escriba datos importantes de la página a tener en cuenta o algo que quiera comunicar"></textarea>
                     </div>
                 </div>
 
                 <!--la sig info es necesaria si el filtro y esta instalada-->
                 <div class="cont-filtInst" onclick="popUp();" >
-                        <b><span id="checkjs"><i class="bx bxs-info-square"></i></span><div class="fopntext">filtro instalado?</div><br>PRESIONA CLICK PARA EXPANDIR/CONTRAER</b>
+                        <b><span id="checkjs"><i class="bx bxs-info-square"></i></span><div class="fopntext">¿FILTROS M+H INSTALADOS?</div><br>PRESIONA CLICK PARA EXPANDIR/CONTRAER</b>
                 </div><br>
                 <div class="form-container-filtros desv">
                     <p class="parrafo"><b>Solo completar si el filtro ya está instalado en el vehiculo</b></p></br>
@@ -106,7 +101,7 @@
                         <input type="text" name="fechaFiltro" id="fechaFiltro" class="input" placeholder="Ingrese los datos de la instalación" />
                         </div>
                         <div class="form-group">
-                        <label for="fechaFallo">El primer fallo ocurrió el / A los KM:</label>
+                        <label for="fechaFallo">Serie del filtro:</label>
                         <input type="text" name="fechaFallo" id="fechaFallo" class="input" placeholder="Ingrese los datos del fallo" />
                         </div>
                     </div><br>
@@ -157,7 +152,7 @@
                     </div><br>
                 </div>   
                 <div class="adjuntos">
-                    <label for="adjuntos"> Adjuntos y / o Archivos necesarios:</label>
+                    <label for="adjuntos"> Adjuntos y / o Archivos:</label>
                     <input type="file" name="adjuntos[]" id="adjuntos" class="input" multiple /><br>
                 </div>
                 <div class="container-btn-form">
@@ -166,8 +161,7 @@
                 </div>
             </div>
         </form>
-        <p class="parrafo2 bx bx-error">No se pueden procesar las reclamaciones que contienen información inadecuada. Todos los artículos presentados para la reclamación deben estar en el mismo estado 
-        que expresa el contenido de la reclamación. Nuestras condiciones generales de venta y entrega son aplicables en todos los casos.</p>
+        
         </div>  
     </div>
     </div>
@@ -176,7 +170,7 @@
     <div id="PDF-fuera">
         <div class ="form formPDF desv" id="start1">
             <form id="formPDF" enctype="multipart/form-data" method="post">
-                <p class="title">reclamación de garantía</p>
+                <p class="title">encuesta</p>
                 <div class="row">
                     <label for="adjuntos">Formulario en formato PDF:</label>
                     <input type="file" name="PDF" class="input" required/><br>
@@ -189,8 +183,7 @@
                     </div>
                 </div>
             </form>
-            <p class="parrafo2 bx bx-error">No se pueden procesar las reclamaciones que contienen información inadecuada. Todos los artículos presentados para la reclamación deben estar en el mismo estado 
-            que expresa el contenido de la reclamación. Nuestras condiciones generales de venta y entrega son aplicables en todos los casos.</p>
+            
         </div>
     </div>
     </div>

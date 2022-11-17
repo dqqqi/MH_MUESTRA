@@ -41,8 +41,8 @@
   <div class="logoMann" id="navbar"><a href="Inicio.php"><img src="../../Resources/imgs/logo.svg" alt="logoPlaceholder" class="logo"></a></div>
     <ul class="navbar">
       <li><div class="nav-item"><a href="Inicio.php"><div class="navtxt">inicio</div></a></div></li>
-      <li><div class="nav-item"><a href="Formularios.php"><div class="navtxt">presentar reclamos</div></a></div></li>
-      <li><div class="nav-item"><a href="Reclamos.php"><div class="navtxt">ver reclamos</div></a></div></li>
+      <li><div class="nav-item"><a href="Formularios.php"><div class="navtxt">encuesta</div></a></div></li>
+      <li><div class="nav-item"><a href="Reclamos.php"><div class="navtxt">sus formularios</div></a></div></li>
       <li><div class="nav-item"><a href="FAQ.php"><div class="navtxt">faq</div></a></div></li>
       <li><div class="nav-item"><a href="DOC.php"><div class="navtxt">doc</div></a></div></li>   
       <li class="logoutbutton">

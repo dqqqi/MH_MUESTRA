@@ -14,7 +14,7 @@
         
           <div class="cards">
             <div class="card" >
-              <img src="../../Resources/imgs/card.jpg" alt="placeholder"  >
+              <img src="../../Resources/imgs/mh1.png" alt="placeholder"  >
               <div class="captiont">MANN+HUMMEL
               <div class="caption">We bring sustainability and technological progress together.</div></div>
              
@@ -28,7 +28,8 @@
        
           <div class="cards">
             <div class="card">
-              <img src="../../Resources/imgs/card1.jpg" alt="placeholder"  >
+              <img src="../../Resources/imgs/mh3-transformed.jpeg" alt="placeholder"  >
+              <div class="captiont1">PUNTO DE REUNIONES
              
             </div>
           </div>
@@ -40,7 +41,7 @@
         
           <div class="cards">
             <div class="card">
-              <img src="../../Resources/imgs/new2.jpg" alt="placeholder"  >
+              <img src="../../Resources/imgs/mh2.png" alt="placeholder"  >
               
             </div>
           </div>

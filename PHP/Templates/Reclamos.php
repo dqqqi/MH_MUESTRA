@@ -27,13 +27,13 @@
         <table class="tableHeader">
             <thead>
                 <tr>
-                    <th class="border h-spacing-sm">Nro. reclamación</th>
+                    <th class="border h-spacing-sm">ID</th>
                     <th class="border h-spacing-sm">Fecha de ingreso</th>
-                    <th class="border h-spacing-sm">Nro. Remito</th>
-                    <th class="border h-spacing-sm">Fecha de remito</th>
-                    <th class="border h-spacing-sm">Denominación de ventas</th>
-                    <th class="border h-spacing-large">Problema descrito por el cliente</th>
-                    <th class="border h-spacing-large">Estado de la reclamación</th>
+                    <th class="border h-spacing-sm">DNI</th>
+                    <th class="border h-spacing-sm">Fecha</th>
+                    <th class="border h-spacing-sm">Conoce M+H?</th>
+                    <th class="border h-spacing-large">Puntos positivos</th>
+                    <th class="border h-spacing-large">Estado de la acreditación</th>
                     <th class="border h-spacing-sm">Acredita (SI / NO)</th>
                     <th class="h-spacing-l">Motivo de la acreditación</th>
                 </tr>
@@ -88,27 +88,27 @@
                         <p><b class="subtittle">Emisor:</b> <?php echo $session->userProv; ?></p>
                         <p><b class="subtittle">Fecha:</b> <?php echo $row['Fecha'] ?></p>
                         <p><b class="subtittle">Solicitante:</b> <?php echo $row['Email'] ?></p>
-                        <p><b class="subtittle">Num. remito:</b> <?php echo $row['N_Remito'] ?></p>
-                        <p><b class="subtittle">Reclamante / Cliente:</b> <?php echo $row['Reclamante/Cliente'] ?></p>
-                        <p><b class="subtittle">Descripción:</b> <?php echo $row['Descripción'] ?></p>
-                        <p><b class="subtittle">Motivo de la reclamación:</b> <?php echo $row['Motivo'] ?></p>
-                        <p><b class="subtittle">Costes derivados:</b> <?php echo $row['Costes_derivados'] ?></p>
+                        <p><b class="subtittle">DNI:</b> <?php echo $row['N_Remito'] ?></p>
+                        <p><b class="subtittle">Escuela:</b> <?php echo $row['Reclamante/Cliente'] ?></p>
+                        <p><b class="subtittle">Conoce M+H:</b> <?php echo $row['Descripción'] ?></p>
+                        <p><b class="subtittle">Puntos +:</b> <?php echo $row['Motivo'] ?></p>
+                        <p><b class="subtittle">Puntos -:</b> <?php echo $row['Costes_derivados'] ?></p>
                     </div>
                     <hr>
                     <?php if($hayAnalisis){ ?>
                     <div>
-                        <h2 class="tittle-content">Analisis de la reclamación</h2>
-                        <p><b class="subtittle">¿Vehiculo dañado? (SI / NO):</b> <?php echo $analisis['Vehi_Dañado'] ?></p>
+                        <h2 class="tittle-content">Analisis del form.</h2>
+                        <p><b class="subtittle">Serie filtro:</b> <?php echo $analisis['Vehi_Dañado'] ?></p>
                         <p><b class="subtittle">Usado / Sin uso:</b> <?php echo $analisis['Usado'] ?></p>
                         <p class="res"><b class="subtittle">Resultado del analisis:</b> <?php echo $analisis['Resultado'] ?></p>
                         <p><b class="subtittle">Informe Adicional:</b> <a href="#"><?php echo $analisis['Adjunto'] ?></a></p>
                         <p><b class="subtittle">Acredita (SI / NO):</b> <?php echo $analisis['Acreditacion'] ?></p>
                         <p><b class="subtittle">Motivo de la acreditación:</b> <?php echo $analisis['Motivo'] ?></p>
-                        <p><b class="subtittle">Estado de la reclamación:</b> <?php echo $analisis['Fecha'] ?> <?php echo $analisis['Estado'] ?></p>
+                        <p><b class="subtittle">Estado de la acreditación:</b> <?php echo $analisis['Fecha'] ?> <?php echo $analisis['Estado'] ?></p>
                     </div>
                     <?php } else { $hayAnalisis = false;?>
                         <div class="col-center">
-                            <p>Su reclamo esta siendo evaluado</p>
+                            <p>Su formulario esta siendo evaluado</p>
                         </div>
                     <?php } ?>
                 </div>
@@ -120,6 +120,6 @@
 
 <?php } else { ?>
 
-    <h1 class="msg-noRec">Aun no se han realizado reclamos.</h1>
+    <h1 class="msg-noRec">Aun no se han realizado encuestas en esta cuenta.</h1>
 
 <?php } ?>

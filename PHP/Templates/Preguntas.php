@@ -22,21 +22,21 @@
       <ul>
         <li class="slide desv">
             <div class="slideContainer" id="slideContainer">             
-           <a href="#p1"> <div class="extensible"><div class="extnum animext1">1</div><div class="ext" onclick="openReal('p1');">¿Como crear un reclamo?</div></div></a>
+           <a href="#p1"> <div class="extensible"><div class="extnum animext1">1</div><div class="ext" onclick="openReal('p1');">¿Como crear un formulario?</div></div></a>
             <div class="real animext" id="p1">
               <section class="carousel">
   <div class="container">
               <div class="cards">
             <div class="card" >
-              <img class="cardimg" src="../../Resources/imgs/card.jpg" alt="placeholder"  width="400" height="250">
+              <img class="cardimg" src="../../Resources/imgs/tutorial1.PNG" alt="placeholder"  width="400" height="250">
               <div class="container">
-              <h5><b><h4>paso 1</h4> Dirigirse a la página de creación de reclamos</b></h5>
-                <div class="content"><p class="cardtxt">Primero hay que dar click en la parte superior de la pantalla, donde se encuentra el botón "Iniciar reclamos", el cual lo dirigirá a la página de creación de reclamos.</p></div>
+              <h5><b><h4>paso 1</h4> Dirigirse a la página de creación de formularios</b></h5>
+                <div class="content"><p class="cardtxt">Primero hay que dar click en la parte superior de la pantalla, donde se encuentra el botón "Encuesta", el cual lo dirigirá a la página de creación de formularios.</p></div>
                 <br> 
               </div>
             </div>
             <div class="card">
-              <img class="cardimg" src="../../Resources/imgs/card.jpg" alt="placeholder"  width="400" height="250">
+              <img class="cardimg" src="../../Resources/imgs/tutorial2.PNG" alt="placeholder"  width="400" height="250">
               <div class="container">
               <h5><b><h4>paso 2</h4> Seleccionar y rellenar el formulario digital</b></h5>
                 <div class="content"><p class="cardtxt">Seleccionar la opción "Completar formulario en linea" y proceder a completar los datos requeridos para el envío del formulario correctamente.</p></div>
@@ -44,10 +44,10 @@
               </div>         
             </div>
             <div class="card">
-              <img class="cardimg" src="../../Resources/imgs/card.jpg" alt="placeholder"  width="400" height="250">
+              <img class="cardimg" src="../../Resources/imgs/tutorial3.PNG" alt="placeholder"  width="400" height="250">
               <div class="container">
               <h5><b><h4>paso 3</h4> Adjuntar archivos y enviar formulario</b></h5>
-                <div class="content"><p class="cardtxt">Seleccionar archivos extra que se quieran enviar junto al reclamo (como fotos, vídeos, etc.), y finalmente tocar el botón "Enviar formulario".</p></div>
+                <div class="content"><p class="cardtxt">Seleccionar archivos extra que se quieran enviar junto al formulario (como fotos, vídeos, etc.), y finalmente tocar el botón "Enviar formulario".</p></div>
                 <br>  
                   
               </div> 
@@ -57,32 +57,32 @@
         </section>   
 </div>
 <div class="underlinetwo"></div>  
-<a href="#p2"><div class="extensible"><div class="extnum animext1">2</div><div class="ext" onclick="openReal('p2');">¿Como ver un reclamo?</div></div></a>
+<a href="#p2"><div class="extensible"><div class="extnum animext1">2</div><div class="ext" onclick="openReal('p2');">¿Como ver un formulario?</div></div></a>
             <div class="real animext" id="p2">
               <section class="carousel">
   <div class="container">
               <div class="cards">
             <div class="card" >
-              <img class="cardimg" src="../../Resources/imgs/card1.jpg" alt="placeholder"  width="400" height="250">
+              <img class="cardimg" src="../../Resources/imgs/tut1.PNG" alt="placeholder"  width="400" height="250">
               <div class="container">
-                <h5><b><h4>paso 1</h4> Dirigirse a la página de creación de reclamos</b></h5>
-                <div class="content"><p class="cardtxt">Primero hay que dar click en la parte superior de la pantalla, donde se encuentra el botón "Iniciar reclamos", el cual lo dirigirá a la página de creación de reclamos.</p></div>
+                <h5><b><h4>paso 1</h4> Dirigirse a la página de visualización de formularios</b></h5>
+                <div class="content"><p class="cardtxt">Primero hay que dar click en la parte superior de la pantalla, donde se encuentra el botón "Sus formularios", el cual lo dirigirá a la página de vista de sus formularios.</p></div>
                 <br> 
               </div>
             </div>
             <div class="card">
-              <img class="cardimg" src="../../Resources/imgs/card1.jpg" alt="placeholder"  width="400" height="250">
+              <img class="cardimg" src="../../Resources/imgs/tut2.PNG" alt="placeholder"  width="400" height="250">
               <div class="container">
-                <h5><b><h4>paso 2</h4> Seleccionar y rellenar el formulario digital</b></h5>
-                <div class="content"><p class="cardtxt">Seleccionar la opción "Completar formulario en linea" y proceder a completar los datos requeridos para el envío del formulario correctamente.</p></div>
+                <h5><b><h4>paso 2</h4> Podra visualizar la vista simple del formulario</b></h5>
+                <div class="content"><p class="cardtxt">Clickee su formulario para poder visualizar la vista expandida, que contiene más información.</p></div>
                 <br>
               </div>         
             </div>
             <div class="card">
-              <img class="cardimg" src="../../Resources/imgs/card1.jpg" alt="placeholder"  width="400" height="250">
+              <img class="cardimg" src="../../Resources/imgs/tut3.PNG" alt="placeholder"  width="400" height="250">
               <div class="container">
-                <h5><b><h4>paso 3</h4> Adjuntar archivos y enviar formulario</b></h5>
-                <div class="content"><p class="cardtxt">Seleccionar archivos extra que se quieran enviar junto al reclamo (como fotos, vídeos, etc.), y finalmente tocar el botón "Enviar formulario".</p></div>
+                <h5><b><h4>paso 3</h4> Como cerrar la vista expandida </b></h5>
+                <div class="content"><p class="cardtxt">Para cerrar la vista expandida, clickee otra vez en la fila de sus formulario. El administrador podra modificar sus datos</p></div>
                 <br>  
                   
               </div> 
@@ -102,7 +102,7 @@
         <li class="slide desv">
         <div class="slideContainer" id="slideContainer2">
             <div class="extensible"><div class="extnum animext1">1</div><div class="ext"onclick="openReal('p0')">Contactanos por e-mail</div></div>
-            <div class="real animext" id="p0"><a href="#">Quality-MHAR@mann-hummel.com</a></div>
+            <div class="real animext" id="p0"><a href="#">Una pena che</a></div>
             <div class="underlinetwo"></div>
         </div>
         </li>
